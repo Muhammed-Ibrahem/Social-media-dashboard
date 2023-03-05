@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /*Brands*/
+    --facebook: 208deg 92% 53%;
+    --twitter: 203deg 89% 53%;
+    --youtube: 348deg 97% 39%;
+    --instaFrom: 37deg, 97%, 70%;
+    --instaTo: 329deg, 70%, 58%;
+    /*Primary*/
+    --lime-green: 163deg 72% 41%;
+    --bright-red: 356deg 69% 56%;
+
+    /*DarkTheme*/
+    --bg-dark: 230deg 17% 14%;
+    --bg-pattern-dark: 232deg 19% 15%;
+    --card-bg-dark: 228deg 28% 20%;
+    --text-blue-dark: 228deg 34% 66%;
+    --text-white-dark: 0deg 0% 100%;
+    --toggle-dark-from: 210deg 78% 56%;
+    --toggle-dark-to: 146deg 68% 55%;
+
+    /*WhiteTheme*/
+    --bg-white: 0deg 0% 100%;
+    --bg-pattern-white: 225deg 100% 98%;
+    --card-bg-white: 227deg 47% 96%;
+    --text-grayishBlue-white: 228deg 12% 44%;
+    --text-darkBlue-white: 230deg 17% 14%;
+    --toggle-white: 230deg 22% 74%;
+
+    /*Typography*/
+    --card-heading-font-size: 14px;
+  }
+}
+.borderSource {
+  background-image: linear-gradient(
+    to right,
+    hsl(37deg, 97%, 70%),
+    hsl(329deg, 70%, 58%)
+  );
+}
