@@ -1,6 +1,6 @@
 # Social Media Dashboard
 
-## [LIVE DEMO]()
+## [LIVE DEMO](https://social-media-dashboard-challenge-fdm.netlify.app/)
 
 **A Frontend-mentor👷‍♂️ challenge to make responsive Social-Media-Dashboard Tracker page📄**
 
